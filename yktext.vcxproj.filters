@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="代码">
+      <UniqueIdentifier>{c3bae831-c443-490e-a917-bea0824a8a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Db">
+      <UniqueIdentifier>{1cb8ecd0-24b9-4d74-a0cc-f163ed419c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DbSingles">
+      <UniqueIdentifier>{1e05e6ae-c3cc-4f64-bf46-308f535a3673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Epoll">
+      <UniqueIdentifier>{9a498728-a0f6-4a97-a8d6-85a190c6799c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShareMemory">
+      <UniqueIdentifier>{17332cbd-693d-430f-99e6-39fd3f524fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{2bf5942f-255b-4491-adb8-4ccd7e46a438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThreadPool">
+      <UniqueIdentifier>{7b65da70-7103-43ea-8bfb-404b788534bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{4e85692d-ac60-439a-b342-e85c6a1e1b7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="task.cpp" />
+    <ClCompile Include="DbSingles\DbCon.cpp">
+      <Filter>DbSingles</Filter>
+    </ClCompile>
+    <ClCompile Include="Epoll\epoll.cpp">
+      <Filter>Epoll</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\BaseSocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\BaseStream.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\HostAddress.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\TcpServer.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\TcpSocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\UdpSocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool\BaseThread.cpp">
+      <Filter>ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool\ThreadPool.cpp">
+      <Filter>ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="ShareMemory\sem.cpp">
+      <Filter>ShareMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="ShareMemory\ShareMemory.cpp">
+      <Filter>ShareMemory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="public.h" />
+    <ClInclude Include="task.h" />
+    <ClInclude Include="DbSingles\DbCon.h">
+      <Filter>DbSingles</Filter>
+    </ClInclude>
+    <ClInclude Include="Epoll\epoll.h">
+      <Filter>Epoll</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\BaseSocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\BaseStream.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\HostAddress.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\Socket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\TcpServer.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\TcpSocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\UdpSocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool\BaseThread.h">
+      <Filter>ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool\ThreadPool.h">
+      <Filter>ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ShareMemory\sem.h">
+      <Filter>ShareMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="ShareMemory\ShareMemory.h">
+      <Filter>ShareMemory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Db\mydb.dat">
+      <Filter>Db</Filter>
+    </None>
+  </ItemGroup>
+</Project>
